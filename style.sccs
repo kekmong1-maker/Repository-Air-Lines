@@ -1,1 +1,52 @@
+$bg-gradient: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+$btn-color: #00b4d8;
+$btn-hover: #0077b6;
+$text-light: #fff;
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: $bg-gradient;
+  color: $text-light;
+  overflow: hidden;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+
+  &__content {
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      background: $btn-color
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: 0.3s;
+
+      &:hover {
+        background: $btn-hover;
+      }
+    }
+  }
+}
+
+#main {
+  display: none;
+  padding: 40px;
+  background: #111;
+}
