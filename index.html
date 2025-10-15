@@ -1,74 +1,243 @@
-
-<html>
+<!doctype html>
+<html lang="ru">
 <head>
-  <title>Пример</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Who are u</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="preload" href="images/bg-banner.png" as="image">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <html>
-	<head>
-	<link rel="stylesheet" href="Style dias.css">
-		<meta charset="utf-8">
-		<title>Airlines</title>
-	</head>
-	<body>
-	<h1 style="text-align: center;"> Знакомство с HTML </h1>
-	<p  id="info"><b><u>Меня зовут Диас</u></b> и я <u>студент.</u> Я человек, который постоянно стремится к развитию и самосовершенствованию. С ранних лет меня интересовали самые разные сферы: от гуманитарных наук до технических направлений и творчества. Благодаря этому у меня сформировалось широкое мировоззрение и умение видеть связь между разными областями.
 
-В работе я ценю точность и дисциплину. У меня есть опыт перевода технической документации и инструкций к медицинским устройствам и оборудованию, где особенно важна внимательность к деталям. Также я занимался логистикой: организовывал доставку, взаимодействовал с курьерами, упаковывал и передавал товары, искал надёжные транспортные компании. Эти задачи научили меня системности и умению работать в условиях ограниченного времени.
+<!--privet overlay-->
+<div class="welcome" id="welcome" hidden>
+  <button class="welcome__close" aria-label="Закрыть">×</button>
 
-Помимо работы я интересуюсь психологией, философией, искусством и историей. Мне важно не только собирать информацию, но и анализировать её, делать выводы, которые помогают лучше понимать и себя, и других людей. Любознательность помогает мне находить нестандартные решения и расширять кругозор.
+  <!--лого+кнопка-->
+  <div class="welcome__content" role="dialog" aria-modal="true">
+    <img src="images/logo.png" alt="Quiz-box" class="welcome__logo">
+    <button class="btn btn--accent welcome__btn">подробнее</button>
+  </div>
+</div>
 
-Значимое место в моей жизни занимает спорт. Я придерживаюсь чёткого плана тренировок, где каждая неделя расписана по группам мышц и видам нагрузок. Это помогает мне держать дисциплину, работать над собой и шаг за шагом двигаться к результату.
+  <!--шапк-->
+  <header class="header">
+    <div class="container header__row">
+      <a href="#" class="header__logo">
+        <img src="images/logo.png" alt="Quiz-box" class="logo">
+      </a>
 
-В общении я стараюсь быть прямым и честным. Я не люблю лишних слов и сглаживания углов — для меня важно говорить прямо. При этом я умею слушать и проявлять эмпатию, что позволяет выстраивать доверительные и крепкие отношения с людьми.
+      <!--меню-->
+      <nav class="nav">
+        <a href="#">Главная</a>
+        <a href="#">Игры</a>
+        <a href="#">Отзывы</a>
+      </nav>
 
-Я вижу свою жизнь как путь, где важно не останавливаться, ставить цели и уверенно идти к ним. Я ценю развитие, честность и силу характера, потому что именно они позволяют двигаться вперёд и добиваться большего.</p>
-	<ol style="color: red;">
-	<li>er</li>
-	<li>trt</li>
-	<li>yry</li>
-	<li>ryr</li>
-	</ol>
-	<table border="5" cellpadding="10" cellspacing="20" style="color : red;">
-	<tr width="50" height="50">
-	<th>Диас</th>
-	<th>Диас</th>
-	<th>Диас</th>
-	<th>4</th>
-	<tr width="50" height="50">
-	<td colspan="2" align="right">who</td>
-	<td rowspan="2" align="left">you</td>
-	<td align="center">why</td>
-	
-	<tr width="50" height="50">
-	<td align="right">who</td>
-	<td align="left">you</td>
-	<td rowspan="2" align="center">why</td>
-	</tr>
-	</table>
-	<br></br>
-	<table border="5" cellpadding="10" cellspacing="20" style="color : red;">
-	<tr width="50" height="50">
-	<th>Диас</th>
-	<th>Диас</th>
-	<th>Диас</th>
-	</tr>
-	<tr width="50" height="50">
-	<td align="right">who</td>
-	<td align="left">you</td>
-	<td align="center">why</td>
-	</table>
-	</body>
-	<img src="c30fefe4ed1787333c4535d2bc013baf.jpg" alt="Dias loh" width="500" height="500" border="50">
-<body style="background-color: black;">
+      <!--номер-->
+      <div class="header__phone">
+        <img src="images/phone.png" alt="график работы" class="phone__schedule">
+      </div>
+    </div>
+  </header>
 
-<p><a href=https://clk.tradedoubler.com/click?p=357141&a=3448179&g=25601480&epi=enxl-edge-ntp-topsites>Перейти на алиэкспресс</a></p>
-<p><a href=https://www.booking.com/index.html?aid=1670475&label=enxl-edge-ntp-topsites-curate-ana target="_blank">Букинг в новой вкладке</a></p>
-<p style="color : red;"><a href="#info">Info</a></p>
-</body>
-</html>
-  <h1>Заголовок</h1>
-  <p>Текст с внешним CSS</p>
+  <!--герой-->
+<section class="hero">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="hero__fade" aria-hidden="true"></div>
+
+    <div class="container hero__content">
+      <h1>Интеллектуальный<br> вечер для шумной<br> компании</h1>
+      <p class="lead">Игры на любой вкус</p>
+      <a class="btn btn--accent" href="#about">подробнее</a>
+    </div>
+  </section>
+  
+  <!--новинки недели-->
+  <section class="section" id="games">
+    <div class="container">
+      <h2 class="section__title">
+        Новинки недели
+        <img class="badge-new" src="images/icons-new.png" alt="NEW">
+      </h2>
+
+      <div class="cards">
+        <!--1 -->
+        <article class="card">
+          <div class="card__cover">
+            <img src="images/1music.png" alt="Музыкальная игра">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Музыкальная игра</h3>
+            <div class="meta">
+              <div class="meta__item"><img src="images/icons-clock.png" alt="">90 минут</div>
+              <div class="meta__item"><img src="images/icons-questions.png" alt="">70 вопросов</div>
+            </div>
+            <p class="card__desc">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
+            <a href="#" class="btn btn--ghost">СМОТРЕТЬ</a>
+          </div>
+        </article>
+
+        <!--2 -->
+        <article class="card">
+          <div class="card__cover">
+            <img src="images/190s.png" alt="Назад в 90-е">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Назад в 90-е</h3>
+            <div class="meta">
+              <div class="meta__item"><img src="images/icons-clock.png" alt="">90 минут</div>
+              <div class="meta__item"><img src="images/icons-questions.png" alt="">70 вопросов</div>
+            </div>
+            <p class="card__desc">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
+            <a href="#" class="btn btn--ghost">СМОТРЕТЬ</a>
+          </div>
+        </article>
+
+        <!--3 -->
+        <article class="card">
+          <div class="card__cover">
+            <img src="images/1it.png" alt="IT-викторина">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">IT-викторина</h3>
+            <div class="meta">
+              <div class="meta__item"><img src="images/icons-clock.png" alt="">90 минут</div>
+              <div class="meta__item"><img src="images/icons-questions.png" alt="">70 вопросов</div>
+            </div>
+            <p class="card__desc">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
+            <a href="#" class="btn btn--ghost">СМОТРЕТЬ</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- прошедшие игры -->
+  <section class="section section--pad-top">
+    <div class="container">
+      <h2 class="section__title">Прошедшие игры</h2>
+
+      <div class="past__grid">
+        <article class="past-card">
+          <img src="images/image-spring.png" alt="Новогодний квиз">
+          <div class="pc__content">
+            <div class="pc__date">1 января</div>
+            <div class="pc__title">Новогодний квиз</div>
+            <div class="pc__txt">Успевайте забронировать даты. Пока ещё есть места на декабрь. Удачи и всех благ!</div>
+          </div>
+        </article>
+
+        <article class="past-card">
+          <img src="images/image-christmas.png" alt="Весенняя игра">
+          <div class="pc__content">
+            <div class="pc__date">8 марта</div>
+            <div class="pc__title">Весенняя игра</div>
+            <div class="pc__txt">Успевайте забронировать даты! Пока ещё есть места на март. Удачи и всех благ!</div>
+          </div>
+        </article>
+      </div>
+
+      <div class="pager">
+        <span class="pager__label">Страница 1 из 7</span>
+        <span class="pager__dot is-active">1</span>
+        <span class="pager__dot">2</span>
+        <span class="pager__dot">3</span>
+        <span class="pager__dot">4</span>
+        <span class="pager__dot">5</span>
+        <span class="pager__dot">6</span>
+        <span class="pager__dot">7</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- онас  -->
+  <section class="section about" id="about">
+    <div class="about__decor" aria-hidden="true"></div>
+
+    <div class="container about__row">
+      <div class="about__photo">
+        <img src="images/image-about.png" alt="Команда за столом">
+      </div>
+
+      <div class="about__panel">
+        <h3 class="about__title">О нас</h3>
+        <p class="about__txt">
+          Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более-менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навыки публичных выступлений в домашних условиях.
+        </p>
+        <a class="btn btn--white-outline" href="#">ПОДРОБНЕЕ</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- футер -->
+  <footer class="footer">
+    <div class="container footer__row">
+      <a href="#"><img class="logo" src="images/logo.png" alt="Quiz-box"></a>
+
+      <nav class="foot-nav">
+        <a href="#">Главная</a>
+        <a href="#games">Игры</a>
+        <a href="#reviews">Отзывы</a>
+      </nav>
+
+      <div class="social">
+        <a href="#"><img src="images/icons-vk.png" alt="VK"></a>
+        <a href="#"><img src="images/icons-f.png" alt="Facebook"></a>
+        <a href="#"><img src="images/icons-i.png" alt="Instagram"></a>
+        <a href="#"><img src="images/icons-t.png" alt="Telegram"></a>
+      </div>
+
+      <div class="footer__phone">
+        <div class="phone__number">8 800 700 30 30</div>
+      </div>
+    </div>
+  </footer>
+
+  
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+// overlay script
+  const overlay  = document.getElementById('welcome');              // оверлей
+  const btnMore  = overlay?.querySelector('.welcome__btn');         // кнопка
+  const btnClose = overlay?.querySelector('.welcome__close');       // крестик
+
+  // открытие/закрытие
+  const open  = () => { if (!overlay) return; overlay.hidden = false; document.body.classList.add('is-locked'); };
+  const close = () => { if (!overlay) return; overlay.hidden = true;  document.body.classList.remove('is-locked'); };
+
+  // открыть
+  open();
+
+  // закрыть (крестик)
+  btnClose && btnClose.addEventListener('click', close);
+
+  // закрыть (любое место)
+  overlay && overlay.addEventListener('click', (e) => {
+    if (!e.target.closest('.welcome__btn')) close();
+  });
+
+  // клик по "подробнее": не закрывать из-за всплытия, закрыть оверлей и скролльнуть к блоку
+  btnMore && btnMore.addEventListener('click', (e) => {
+    e.stopPropagation();   // важно: чтобы общий обработчик клика по оверлею не закрыл раньше времени
+    close();
+    // прокрутка к блоку о нас
+    const target = document.querySelector('#about');
+    if (target) target.scrollIntoView({ behavior: 'smooth' });
+  });
+
+  // esc
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') close();
+  });
+});
+</script>
+
 </body>
 </html>
